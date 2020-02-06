@@ -16,7 +16,7 @@ public class FibonnaciModel {
 			}
 	
 			if (i > 1) {
-				int nextElement = list.get(i - 2) * list.get(i - 1);
+				int nextElement = list.get(i - 2) + list.get(i - 1);
 				list.addLast(nextElement);
 			}
 		}
